@@ -6,7 +6,7 @@ var connect = require('gulp-connect')
 var imagemin = require('gulp-imagemin')
 
 var scssFiles = ['./src/scss/*.scss'] //sass src
-var cssDest = './css' //css dest
+var cssDest = './src/css' //css dest
 var cssMinDest = './dist/css' ///css.min dest
  
 var sassDevOptions = {

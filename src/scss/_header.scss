@@ -36,7 +36,7 @@
     margin-right: 10px;
     font: {
       size: 12px;
-      family: "Open Sans", sans-serif;
+      family: $font-open;
     }
   }
 }
@@ -48,7 +48,7 @@
   margin-right: 50px;
   font: {
     size: 14px;
-    family: Gotham Book, sans-serif;
+    family: $font-gotham;
   }
 }
 
@@ -77,10 +77,12 @@
   }
   .header__menu__right--bag--qtd {
     font: {
-      family: Gotham Book, sans-serif;
+      family: $font-gotham;
       size: 12px;
     }
     color: $color-menu;
     margin-left: 1px;
   }
 }
+
+
