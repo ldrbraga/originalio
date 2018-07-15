@@ -7,7 +7,7 @@ var imagemin = require('gulp-imagemin')
 
 var scssFiles = ['./src/scss/*.scss'] //sass src
 var cssDest = './src/css' //css dest
-var cssMinDest = './dist/css' ///css.min dest
+var cssMinDest = './public/css' ///css.min dest
  
 var sassDevOptions = {
   outputStyle: 'expanded'
@@ -34,7 +34,7 @@ gulp.task('sassProd', function(){
 gulp.task('htmlmin', function(){
   return gulp.src('src/*.html')
 	.pipe(htmlmin({collapseWhitespace: true}))
-  .pipe(gulp.dest('dist/'))
+  .pipe(gulp.dest('public/'))
 });
 
 // task watch 
@@ -46,17 +46,16 @@ gulp.task('watch', function(){
 // task local server
 gulp.task('connect', function(){
   connect.server({
-    root: 'dist/',
+    root: 'public/',
     livereload: true
   })
 })
 
 //task image min
 gulp.task('imagemin', function(){
- return gulp.src('./assets/images/*')
+ return gulp.src('src/assets/images/*')
  .pipe(imagemin())
- .pipe(gulp.dest('dist/images'))
+ .pipe(gulp.dest('public/images'))
 })
-
 
 gulp.task('default', ['htmlmin', 'sassDev', 'sassProd', 'imagemin', 'connect', 'watch'])

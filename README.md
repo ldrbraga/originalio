@@ -6,6 +6,7 @@ O objetivo do teste é o desenvolvimento de uma página que siga a linha de desi
 
 - CSS
   - Sass
+  - BEM
   - Reset
 
 - JavaScript
