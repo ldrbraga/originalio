@@ -1,4 +1,4 @@
-## Visão Geral do Projeto
+## Sobre o Projeto
 O objetivo do teste é o desenvolvimento de uma página que siga a linha de design proposta.
 
 ### Tecnologias
