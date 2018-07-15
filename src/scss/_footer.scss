@@ -8,12 +8,12 @@
   .container {
     display: flex;
   }
-  .footer__white__social{
+  .footer__white__social {
     margin: {
-     top: 21px;
-     right: 55px;
-     left: 21px;
-    } 
+      top: 21px;
+      right: 55px;
+      left: 21px;
+    }
   }
   .footer__white__social--list {
     display: flex;
@@ -23,77 +23,72 @@
   }
   .footer__white__stamps--list {
     display: flex;
-    margin-top: 51px; 
+    margin-top: 51px;
   }
   .footer__white__stamps--img {
-   margin-right: 32px;
+    margin-right: 32px;
   }
-  .footer__white__maps{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 229px
+  .footer__white__maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 229px;
   }
-  .footer__white__maps > nav{
-   display: flex;
+  .footer__white__maps > nav {
+    display: flex;
   }
-  .footer__white__maps--list{
-   margin: {
-    right: 62px;
-   }
+  .footer__white__maps--list {
+    margin: {
+      right: 62px;
+    }
   }
-  .footer__white__maps--item{
-   margin: {
-    bottom: 30px;
-   }
+  .footer__white__maps--item {
+    margin: {
+      bottom: 30px;
+    }
   }
-  .footer__white__maps--list li:nth-child(1){
-   text-transform: uppercase;
-   font: {
-    family: $font-gotham;
-    weight: bold;
-   }
-   color: $color-light-gray;
+  .footer__white__maps--list li:nth-child(1) {
+    text-transform: uppercase;
+    font: {
+      family: $font-gotham;
+      weight: bold;
+    }
+    color: $color-light-gray;
   }
-  .footer__white__maps--link{
-   text-decoration: none;
-   font: {
-    family: $font-open;
-    size: 14px;
-   }
-   color: $color-content;
+  .footer__white__maps--link {
+    text-decoration: none;
+    font: {
+      family: $font-open;
+      size: 14px;
+    }
+    color: $color-content;
   }
 }
 
-
-
-
-
-
 .footer__orange {
   background: $color-orange;
-  .container{
-   display: flex;
-   justify-content: space-around;
+  .container {
+    display: flex;
+    justify-content: space-around;
   }
-  .footer__orange__adress{
-   display: flex;
+  .footer__orange__adress {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 728px;
     height: 60px;
   }
-  .footer__orange__adress--text{
-   color: #fff;
-   font: {
-    size: 12px;
-    family: $font-open;
-   }
-   line-height: 20px;
+  .footer__orange__adress--text {
+    color: #fff;
+    font: {
+      size: 12px;
+      family: $font-open;
+    }
+    line-height: 20px;
   }
-  .footer__orange__logo{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  .footer__orange__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
