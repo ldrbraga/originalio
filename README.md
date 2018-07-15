@@ -1,5 +1,5 @@
 ## Visão Geral do Projeto
-O objetivo do teste é o desenvolvimento de uma página que siga a linha de design proposto.
+O objetivo do teste é o desenvolvimento de uma página que siga a linha de design proposta.
 
 ### Tecnologias
 - HTML5
@@ -20,20 +20,20 @@ Para realizar as ações a seguir, será necessário que tenha instalado em seu 
 ### Clonando o Repositório
 Primeiro é preciso que efetue a clonagem do repositório para o seu computador.
 
-Já abrindo o bash do Git para efetuar a clonagem será necessário que digite o seguinte comando e informe a URL copiada anteriormente:
+Já abrindo o **terminal** para efetuar a clonagem será necessário que digite o seguinte comando e informe a URL copiada anteriormente:
 ``` git
 git clone <url-do-repositorio> && cd originalio
 ```
 
 ### Instalando as Dependências
-Para instalar as dependências do projeto basta abrir o **Prompt de Comando do Node.js** (caso você esteja no linux ou Mac, basta utilizar o terminal), acessar a pasta do repositório e inserir o seguinte comando:
+Para instalar as dependências do projeto basta abrir o **terminal** (caso você esteja no Windows, basta utilizar o bash do Git), acessar a pasta do repositório e inserir o seguinte comando:
 ``` node
 npm install
 ```
 
 ### Criando o projeto
 
-Iniciar o Gulp para criação da dist e dar um start no servidor local. Para isso, de dentro da pasta raiz da pasta, rodar o comando abaixo:
+Iniciar o Gulp para criação da dist e dar um start no servidor local. Para isso, de dentro da pasta raiz do projeto, rodar o seguinte comando no **terminal**:
 
 ```
 gulp
